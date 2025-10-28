@@ -1,9 +1,9 @@
 export default function FilmDetails() {
   return (
     <div
-      className="bg-[#D6C5A0] text-[#644e1d] rounded-3xl p-6 mt-3 drop-shadow-2xl shadow-[#876F3A] ring-1 ring-[#876F3A]/30"
+      className="bg-[#D6C5A0] text-[#644e1d] rounded-3xl p-6 mt-3 drop-shadow-2xl shadow-[#876F3A] ring-1 ring-[#876F3A]/30 lg:h-auto lg:mt-35 lg:w-5/16 lg:self-start 2xl:mt-55"
     >
-      <div className="flex items-baseline justify-between gap-4">
+      <div className="flex items-baseline justify-between gap-4 ">
         <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
           The Prisoner of Azkaban
         </h2>
