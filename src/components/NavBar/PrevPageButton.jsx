@@ -6,7 +6,7 @@ export default function PrevPageButton() {
 
     return (
         <button
-            className="bg-[#D6C5A0] px-4 py-2 rounded-full m-2 hover:cursor-pointer sm:px-6 sm:py-4 sm:text-xl lg:text-4xl xl:text-5xl"
+            className="bg-[#D6C5A0] px-4 py-2 rounded-full m-2 hover:cursor-pointer sm:px-4 sm:py-2 sm:text-xl md:px-5 md:py-3.5"
             onClick={() => { navigate(-1) }}>
             <i className="fa-solid fa-arrow-left pt-1"></i>
         </button>

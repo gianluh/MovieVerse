@@ -1,16 +1,22 @@
 import { Outlet } from "react-router";
 import Contacts from "./Contacts";
 import PrevPageButton from "./PrevPageButton";
+import PageButton from "./PageButton";
 
 export default function NavBar() {
 
     return (
-        <>
-            <div className="flex justify-between text-[#715416]">
+    <>
+        <div className="flex justify-between text-[#715416] items-center">
+            <div className="flex ">
                 <PrevPageButton />
-                <Contacts />
+                <PageButton />
             </div>
+            <Contacts />  
+        </div>
+        <div>
             <Outlet />
-        </>
+        </div>
+    </>
     )
 }
