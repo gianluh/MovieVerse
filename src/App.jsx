@@ -35,7 +35,7 @@ export default function App() {
 
 
   return (
-  <div className="h-screen w-screen bg-[#876F3A] bg-fixed bg-[radial-gradient(ellipse_900px_600px_at_15%_10%,rgba(214,197,160,0.38),transparent_60%),radial-gradient(ellipse_700px_500px_at_85%_85%,rgba(214,197,160,0.28),transparent_55%),linear-gradient(135deg,#876F3A_0%,#876F3A_70%,#D6C5A0_130%)] overflow-y-scroll">
+  <div className="h-screen w-screen bg-[#876F3A] bg-fixed bg-[radial-gradient(ellipse_900px_600px_at_15%_10%,rgba(214,197,160,0.38),transparent_60%),radial-gradient(ellipse_700px_500px_at_85%_85%,rgba(214,197,160,0.28),transparent_55%),linear-gradient(135deg,#876F3A_0%,#876F3A_70%,#D6C5A0_130%)]">
       <RouterProvider router={createBrowserRouter(createRoutesFromElements(
         <>
           <Route path="/" element={<NavBar />}>
