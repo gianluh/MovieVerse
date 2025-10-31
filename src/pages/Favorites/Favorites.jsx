@@ -1,5 +1,5 @@
 
-import ToggleFavorited from "./toggleFavorited";
+import ToggleFavorited from "./ToggleFavorited";
 
 export default function Favorites({ favorited, setFavorited }) {
 
