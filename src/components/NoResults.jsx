@@ -15,7 +15,7 @@ export default function NoResults() {
               <i className="fa-solid fa-magnifying-glass text-3xl text-[#715416]" onClick={() => navigate("/")}></i>
       </div>
 
-      <h2 className="text-center text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#D6C5A0] via-[#E9DFC2] to-[#876F3A] drop-shadow-sm">
+      <h2 className="text-center text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-[#D6C5A0] via-[#E9DFC2] to-[#876F3A] drop-shadow-sm">
         No Results Found
       </h2>
       <p className="mt-3 max-w-2xl text-center text-base sm:text-lg text-[#644e1d]/80">
