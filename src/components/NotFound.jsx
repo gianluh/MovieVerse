@@ -14,7 +14,7 @@ export default function NotFound() {
       <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-3xl bg-[#D6C5A0]/70 ring-2 ring-[#876F3A]/30 shadow-lg shadow-[#876F3A]/20 motion-safe:animate-bounce select-none">
         <i className="fa-solid fa-film text-3xl text-[#715416]"></i>
       </div>
-      <h1 className="text-center text-6xl sm:text-7xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#D6C5A0] via-[#E9DFC2] to-[#876F3A] drop-shadow-sm">
+      <h1 className="text-center text-6xl sm:text-7xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-[#D6C5A0] via-[#E9DFC2] to-[#876F3A] drop-shadow-sm">
         404
       </h1>
       <p className="mt-2 text-xl sm:text-2xl text-[#715416]">Reel not found</p>
