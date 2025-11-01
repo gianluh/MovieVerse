@@ -1,6 +1,7 @@
 
 import ToggleFavorited from "./ToggleFavorited";
 
+// Favorites films selected by the user
 export default function Favorites({ favorited, setFavorited }) {
 
   return (

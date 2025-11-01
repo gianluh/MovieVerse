@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+// Button to unselect favorited films
 export default function ToggleFavorited({ index, setFavorited }) {
 
     const [status, setStatus] = useState(true)

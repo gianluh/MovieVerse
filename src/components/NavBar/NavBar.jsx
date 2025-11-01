@@ -3,6 +3,7 @@ import Contacts from "./Contacts";
 import PrevPageButton from "./PrevPageButton";
 import PageButton from "./PageButton";
 
+// Navigation Bar shown on every page
 export default function NavBar() {
 
     return (

@@ -1,4 +1,5 @@
 
+// Poster of the film searched by the user
 export default function Poster({poster}) {
   return (
     <div className="group transition h-1/2 md:h-4/7 lg:h-6/7 lg:w-3/5 xl:w-2/5 xl:pb-15">

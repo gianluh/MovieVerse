@@ -1,4 +1,5 @@
 
+
 export default function SearchInput({ searchInput, setSearchInput}) {
   return (
     <input

@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+// Button to unselect watched films
 export default function ToggleWatched({ index, setWatched }) {
 
     const [status, setStatus] = useState(true)

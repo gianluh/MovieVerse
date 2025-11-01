@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 
+// Buttons that links to the previous page
 export default function PrevPageButton() {
 
     const navigate = useNavigate()

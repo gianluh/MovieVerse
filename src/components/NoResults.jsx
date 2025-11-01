@@ -1,5 +1,6 @@
 import { useNavigate} from "react-router-dom";
 
+// Page shown when no results were found with the user search
 export default function NoResults() {
   const navigate = useNavigate();
 

@@ -1,4 +1,5 @@
 
+// Informations about the film searched by the user
 export default function FilmDetails({ title, year, rated, runtime, genreArray, author, plot, setWatched, setFavorited }) {
   
   const handleClick = (array, item) => {

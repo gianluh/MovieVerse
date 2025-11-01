@@ -1,6 +1,7 @@
 
 import { useNavigate, NavLink } from "react-router-dom";
 
+// Page shown when the user navigate to non-existent page
 export default function NotFound() {
   const navigate = useNavigate();
 

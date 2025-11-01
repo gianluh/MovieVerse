@@ -15,16 +15,20 @@ import Watched from "./pages/Watched/Watched";
 
 export default function App() {
   const [searchInput, setSearchInput] = useState("");
+  
+  // List of favorited films selected by the user
   const [favorited, setFavorited] = useState(() => {
     const saved = localStorage.getItem("favorited");
     return saved ? JSON.parse(saved) : [];
   });
 
+  // List of watched films selected by the user
   const [watched, setWatched] = useState(() => {
     const saved = localStorage.getItem("watched");
     return saved ? JSON.parse(saved) : [];
   });
 
+  // Whenever favorited and watched get updated, update their value in Local Storage
   useEffect(() => {
     localStorage.setItem("favorited", JSON.stringify(favorited));
   }, [favorited]);

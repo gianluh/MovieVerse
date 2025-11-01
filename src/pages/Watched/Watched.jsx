@@ -1,5 +1,6 @@
 import ToggleWatched from "./ToggleWatched";
 
+// Page that shows watched films selected by the user
 export default function Watched({ watched, setWatched }) {
 
     return (

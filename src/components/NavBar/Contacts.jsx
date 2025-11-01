@@ -1,4 +1,5 @@
 
+// Buttons that redirect to social medias
 export default function Contacts() {
 
     return (

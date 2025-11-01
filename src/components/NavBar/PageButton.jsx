@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from "react-router"
 
+// Buttons to navigate through the website
 export default function PageButton() {
 
     const location = useLocation()

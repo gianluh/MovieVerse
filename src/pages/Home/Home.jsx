@@ -3,6 +3,7 @@ import SearchInput from "./SearchInput";
 import SubmitButton from "./SubmitButton";
 import { useState } from "react";
 
+// Page where the user searchs for a film
 export default function Home({ searchInput, setSearchInput }) {
 
   const [loading, setLoading] = useState(false)

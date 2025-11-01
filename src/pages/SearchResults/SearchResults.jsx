@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import FilmDetails from "./FilmDetails";
 import Poster from "./Poster";
 
+
 export default function SearchResults({ setFavorited, setWatched, setIsFavorited, setIsWatched}) {
 
   const [results, setResults] = useState([])
